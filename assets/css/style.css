@@ -1,0 +1,62 @@
+
+body{
+    
+    background-image: url( "https://camo.derpicdn.net/c6685805e5166b3e1513b16373035d0e95d8b537?url=http://www.agoracosmopolitan.com/news-img/maximum/8853.jpg");
+}
+.jumbotron{
+    opacity: 0.50;
+    
+}
+#Start{
+text-align: center;
+/* padding-left: 10px; */
+font-weight: bolder;
+background-color: black;
+color: white;
+
+
+
+}
+#questionSection{
+    font-weight: bolder;
+    color: rgb(20, 19, 19);
+    text-align: center;
+    background-color:white;
+    width:700px;
+    margin-left: 25%;
+   
+}
+
+#scoreSection{
+    font-weight: bolder;
+    color: rgb(182, 158, 158);   
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url(https://camo.derpicdn.net/c6685805e5166b3e1513b16373035d0e95d8b537?url=http%3A%2F%2Fwww.agoracosmopolitan.com%2Fnews-img%2Fmaximum%2F8853.jpg);
+    }
+    #questionSection{
+        text-align: left;
+        width:400px;
+        margin-left: 0%;
+        background-color:rgba(240, 232, 232, 0.061);
+        color: rgb(25, 142, 2)
+    }
+
+
+}
+/* Iphone 8+ screen width starts at 414px */
+@media only screen and (max-width: 415px) {
+
+    body{
+        background-image: url(http://www.cgsociety.org/cgsarchive/newgallerycrits/g45/312745/312745_1202196054_large.jpg);   
+        /* background-repeat: no-repeat; */
+        background-attachment: fixed;    
+    }
+    #questionSection {
+        color:gray;
+        width:350px;
+    }
+
+}
