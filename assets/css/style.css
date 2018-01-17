@@ -35,6 +35,8 @@ color: white;
 @media only screen and (max-width: 768px) {
     body {
         background-image: url(https://camo.derpicdn.net/c6685805e5166b3e1513b16373035d0e95d8b537?url=http%3A%2F%2Fwww.agoracosmopolitan.com%2Fnews-img%2Fmaximum%2F8853.jpg);
+        background-color: white;
+        text-decoration-color: white;
     }
     #questionSection{
         text-align: left;
@@ -51,8 +53,10 @@ color: white;
 
     body{
         background-image: url(https://i.pinimg.com/736x/57/43/66/574366e6bf30988b553d360e90b2d58c--star-trek-mla.jpg);   
-        /* background-repeat: no-repeat; */
-        background-attachment: fixed;    
+        background-color: white
+        text black;
+        background-attachment: fixed
+            
     }
     #questionSection {
         color:gray;
